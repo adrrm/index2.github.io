@@ -6,10 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="resultado1"></div>
-    <div id="resultado2"></div>
-    <div id="resultado3"></div>
-    <div id="resultado4"></div>
-    <script src="index.js"></script>
+   <div id="resultado"></div>
+   <script>
+        
+
+        var valores=[1,2,3,4,5,6,7,8,9,10];
+
+        var resultado= valores[1] + valores[3] + valores[5] + valores[7] + valores[9];
+        
+        document.getElementById('resultado').innerHTML="Resultado de la suma es:"+resultado;
+
+   </script>
 </body>
 </html>
